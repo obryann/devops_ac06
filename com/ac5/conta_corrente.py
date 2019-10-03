@@ -2,10 +2,10 @@ class ContaCorrente:
 
     def __init__(self, numero, nomeCorrentista, saldo=0.0):
         self.numero = numero
-        self.alterarNome(nomeCorrentista)
+        self.alterar_nome(nomeCorrentista)
         self.saldo = saldo
 
-    def alterarNome(self, nomeCorrentista):
+    def alterar_nome(self, nomeCorrentista):
         self.nomeCorrentista = nomeCorrentista
 
     def deposito(self, valor):
