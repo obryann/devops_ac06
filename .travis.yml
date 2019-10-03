@@ -6,6 +6,7 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install -U pytest-cov
- 
+  - pip install --user pylint-runner
 script:
   - pytest --cov=com.ac5 com/ac5/test/
+  - pylint-runner
