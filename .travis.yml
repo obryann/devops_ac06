@@ -1,12 +1,9 @@
 language: python
 python:
-  - 3.6
+- 3.6
 before_install:
-  - python --version
-  - pip install -U pip
-  - pip install -U pytest
-  - pip install -U pytest-cov
-  - pip install --user pylint-runner
+- python --version
+- pip install -r requirements.txt
 script:
-  - pytest --cov=com.ac5 com/ac5/test/
-  - pylint-runner
+- pylint_runner
+- pytest --cov=com.kuma com/ac5/test/
