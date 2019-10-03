@@ -9,3 +9,4 @@ before_install:
  
 script:
   - pytest --cov=com.ac5 com/ac5/test/
+  - pylint-runner
