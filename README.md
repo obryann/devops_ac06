@@ -1,1 +1,4 @@
-# devops_ac06
+# DevOps AC06
+## Bryan de Almeida - RA: 1901236
+## Vitor Aciole - RA: 1901085
+## Guilherme Reinhardt - RA: 1901228
