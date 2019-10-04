@@ -5,7 +5,7 @@ from com.ac5.calcula_parcela import valor_pagamento
 
 def test_valor_pagamento1():
     """verifica se é vazio"""
-    assert valor_pagamento(-1, 20) is None, "Should be None"
+    assert valor_pagamento(-1, 20) == 0, "Should be 0"
 
 
 """teste de valor de pagamento"""
