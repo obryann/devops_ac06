@@ -1,5 +1,8 @@
-def valor_pagamento(valor, diasAtraso):
+""" Função """
 
+
+def valor_pagamento(valor, diasAtraso):
+    """ verifica o valor de pagamento conforme os dias de atraso """
     if (valor < 0):
         return None
     if (diasAtraso > 0):
