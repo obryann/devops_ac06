@@ -1,5 +1,6 @@
 """ Função """
 
+
 def valor_pagamento(valor, dias_atraso):
     """ verifica o valor de pagamento conforme os dias de atraso """
     if valor < 0:
