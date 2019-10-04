@@ -1,5 +1,5 @@
 import pytest
-from com.ac5.calcula_parcela import valorPagamento
+from com.ac5.calcula_parcela import valor_pagamento
 
 
 def test_valor_pagamento1():
