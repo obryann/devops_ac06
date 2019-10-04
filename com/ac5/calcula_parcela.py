@@ -1,4 +1,4 @@
-def valorPagamento(valor, diasAtraso):
+def valor_pagamento(valor, diasAtraso):
 
     if (valor < 0):
         return None
