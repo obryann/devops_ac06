@@ -7,7 +7,3 @@ before_install:
 script:
 - pylint_runner
 - pytest --cov=com.ac5 com/ac5/test/
-<<<<<<< HEAD
-
-=======
->>>>>>> 82ac80120ba9b0c695f39384a902993d6fe3e96e
