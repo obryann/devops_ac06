@@ -1,7 +1,8 @@
+""" Módulo de contas """
 class ContaCorrente:
     """ Cria classe de conta corrente """
     def __init__(self, numero, nome_correntista, saldo=0.0):
-        """ Inicializa atributod da classe """
+        """ Inicializa atributos da classe """
         self.numero = numero
         self.alterar_nome(nome_correntista)
         self.saldo = saldo
