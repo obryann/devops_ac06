@@ -6,7 +6,7 @@ conta_corrente = ContaCorrente(1, "Mateo Pallini", 0.0)
 
 def test_alterar_nome():
     conta_corrente.alterar_nome("Mateo Pallini")
-    assert conta_corrente.nomeCorrentista == "Mateo Pallini"
+    assert conta_corrente.nome_correntista == "Mateo Pallini"
 
 
 def test_deposito():
