@@ -1,4 +1,6 @@
 """ Módulo de contas """
+
+
 class ContaCorrente:
     """ Cria classe de conta corrente """
     def __init__(self, numero, nome_correntista, saldo=0.0):

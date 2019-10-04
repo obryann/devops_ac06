@@ -1,6 +1,7 @@
 """ Módulo de testes """
 from com.ac5.converte_hora import converte_hora
 
+
 def test_hora():
     """ Testa com hora 1 """
     assert converte_hora(24, 60) is None, 'Should be None'
