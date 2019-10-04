@@ -1,4 +1,3 @@
-import pytest
 from com.ac5.converte_hora import converteHora
 
 """Faz o teste de horário nulo"""
