@@ -1,7 +1,13 @@
-import pytest
+""" Testa módulo de Conta Corrente """
 from com.ac5.conta_corrente import ContaCorrente
 
 conta_corrente = ContaCorrente(1, "Mateo Pallini", 0.0)
+
+
+def test_alterar_nome():
+    """ Testa função de alterar nome """
+    conta_corrente.alterar_nome("Mateo Pallini")
+    assert conta_corrente.nome_correntista == "Mateo Pallini"
 
 
 def test_alterarNome():
@@ -10,6 +16,7 @@ def test_alterarNome():
 
 
 def test_deposito():
+    """ Testa função de depósito """
     conta_corrente.deposito(150)
     assert conta_corrente.saldo == 150
     conta_corrente.deposito(50)
@@ -17,5 +24,6 @@ def test_deposito():
 
 
 def test_saque():
+    """ Testa função de saque """
     conta_corrente.saque(199)
     assert conta_corrente.saldo == 1
