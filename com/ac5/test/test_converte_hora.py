@@ -1,5 +1,4 @@
 """ Módulo de testes """
-import pytest
 from com.ac5.converte_hora import converte_hora
 
 def test_hora():

@@ -1,5 +1,4 @@
 """ Testa módulo de Conta Corrente """
-import pytest
 from com.ac5.conta_corrente import ContaCorrente
 
 CONTA_CORRENTE = ContaCorrente(1, "Mateo Pallini", 0.0)
